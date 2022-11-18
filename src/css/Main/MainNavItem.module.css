@@ -7,9 +7,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 a{
     color: black;
+}
+a:focus{
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 .button{
     width: 50px;
@@ -22,8 +27,11 @@ a{
     font-size: 1.5em;
     cursor: pointer;
 }
+.button path{
+    fill: black;
+}
 .name{
-    font-size: 0.1em;
+    font-size: 10px;
     color: #6b6b6b;
     position: relative;
     font-weight: normal;
